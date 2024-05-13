@@ -1,3 +1,7 @@
+# FreeExamples
+
+This respository exists to help provide some examples of changes you might want to make in your own fork of [Free Enterprise](https://github.com/HungryTenor/FreeEnterprise4). Examples will be in their own branches and be the complete code required for the change.
+
 # FreeEnterprise4
 
 This is the open-source version of Free Enterprise 4.x. It contains the full functionality of Free Enterprise 4.x, with some omissions:
