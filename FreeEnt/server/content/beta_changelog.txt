@@ -1,35 +1,9 @@
-(December 19, 2023)
-· Renamed Ktrap to Kmiab, with similar renames throughout other flags, website text, and ingame text.
-· Flash FX now default to disabled.
-· Item price changes:
-  · Cursed Ring: 35000 -> 66000
-  · Life potion: 150 -> 1000
-  · Cure2 potion: 400 -> 300
-  · Long Katana: 11000 -> 22000
-  · Ninja Sword: 66000 -> 44000
-  · Murasame: 93000 -> 66000
-  · Masamune: 106000 -> 88000
-  · Full Moon: 12000 -> 24000
-  · Cat Claw: 30000 -> 10000
-  · Mute Dagger: 10000 -> 15000
-  · Assassin Dagger: 16000 -> 20000
-  · Samurai Helm: 20000 -> 15000
-  · Dragoon Helm: 30000 -> 20000
-  · Headband: 6000 -> 10000
-  · Bandana: 9000 -> 12000
-  · Fire Armor: 30000 -> 15000
-  · Ice Armor: 35000 -> 18000
-  · Diamond Armor: 40000 -> 20000
-  · Samurai Armor: 40000 -> 20000
-  · Dragoon Armor: 50000 -> 30000
-  · Karate Gi: 4000 -> 7000
-  · Black Belt: 14000 -> 20000
-  · Bahamut orb: 85000 -> 60000
-· Item tier changes:
-  · Cat Claw: 5 -> 4
-  · Bahamut orb: 7 -> 6
-· Fixed an issue where DkMatter could replace the Pass in chests.
-· Fixed an issue where MIAB rewards would be duplicated in other chests with Tvanilla.
-· Updated Z sprites and harp songs.
+Updating Initial and/or Level-Learned spells
+
+· Add a new file in the /FreeEnt/scripts folder that has the list of either the new initial spells, the new learned spells, or both. If you leave out either initial or learned, that part of the spell list will be unchanged from vanilla.
+  · Look at /f4c/dump.spellsets.f4c for the different spellsets you can use
+· In /FreeEnt/generator.py you'll need to somewhere include an instruction to add your new .f4c file to the patching process. In this case, I've made the changes apply so long as Jspells aren't on. You could also put in the work to add a new flag, but you'd still  probably not want to mingle this type of change with Jspells, so an `elif(your_condition):` instead of the `else` used here is the way to go.
+
+These changes don't attempt to touch non-vanilla Fu, nor the spells that Tellah learns via Ordeals
 
 

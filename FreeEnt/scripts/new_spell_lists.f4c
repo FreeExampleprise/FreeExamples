@@ -1,0 +1,58 @@
+// fusoya initial spells, take away Nuke/Weak from vanilla fu
+spellset(#FusoyaBlack) {
+    initial {
+        #Fire1
+        #Ice1
+        #Lit1
+        #Fire2
+        #Ice2
+        #Lit3
+        #Sleep
+        #Venom
+        #Warp
+        #Toad
+        #Stop
+        #Piggy
+        #Virus
+        #Psych
+        #Drain
+        #Ice3
+        #Fire3
+        #Lit3
+        #Quake
+        #Stone
+        #Fatal
+        #Meteo
+    }
+}
+
+// Tellah initial spells, he gets quake!
+spellset(#TellahBlack) {
+    initial {
+        #Fire1
+        #Ice1
+        #Lit1
+        #Stop
+        #Quake
+    }
+}
+
+// Cecil gets some additional spells
+spellset(#PCecil) {
+    initial {
+        #Cure1
+        #Slow
+        #Fast
+    }
+    learned {
+        3 #Sight
+        8 #Peep
+        15 #Cure2
+        19 #Exit
+        24 #Heal
+        25 #White
+        26 #Wall
+        27 #Life1
+        28 #Cure4
+    }
+}
