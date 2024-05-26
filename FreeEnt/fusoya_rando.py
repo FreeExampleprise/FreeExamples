@@ -67,12 +67,11 @@ ALL_SPELLS_BY_LEVEL = {
     '#spell.Wall'  : 0,
     '#spell.Life2' : 0,
     '#spell.Fatal' : 1,
-    '#spell.Weak'  : 1,
     '#spell.White' : 0,
     '#spell.Meteo' : 1,
-    '#spell.Nuke'  : 1,
     }
 
+# Change spell ordering here to change the base positioning of when Fu will generally learn a spell
 ALL_SPELLS_BY_GOODNESS = {
     '#spell.Sight' : 0,
     '#spell.Peep'  : 0,
@@ -120,10 +119,8 @@ ALL_SPELLS_BY_GOODNESS = {
     '#spell.Cure4' : 0,
     '#spell.Life2' : 0,
     '#spell.Fatal' : 1,
-    '#spell.Weak'  : 1,
     '#spell.Meteo' : 1,
     '#spell.White' : 0,
-    '#spell.Nuke'  : 1,
     }
 
 
@@ -135,6 +132,7 @@ def apply(env):
                 continue
             position = float(i) / len(ALL_SPELLS_BY_GOODNESS)
             #position += (env.rnd.random() - 0.5) * 0.5
+            # Change the 0.5 here to other values to change how volatile the positions are
             position += (env.rnd.random() - 0.5)
             #position = max(0.0, min(1.0, position))
             ranked_spells.append( (position, spell) )

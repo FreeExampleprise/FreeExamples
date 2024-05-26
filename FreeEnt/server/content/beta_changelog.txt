@@ -1,35 +1,7 @@
-(December 19, 2023)
-· Renamed Ktrap to Kmiab, with similar renames throughout other flags, website text, and ingame text.
-· Flash FX now default to disabled.
-· Item price changes:
-  · Cursed Ring: 35000 -> 66000
-  · Life potion: 150 -> 1000
-  · Cure2 potion: 400 -> 300
-  · Long Katana: 11000 -> 22000
-  · Ninja Sword: 66000 -> 44000
-  · Murasame: 93000 -> 66000
-  · Masamune: 106000 -> 88000
-  · Full Moon: 12000 -> 24000
-  · Cat Claw: 30000 -> 10000
-  · Mute Dagger: 10000 -> 15000
-  · Assassin Dagger: 16000 -> 20000
-  · Samurai Helm: 20000 -> 15000
-  · Dragoon Helm: 30000 -> 20000
-  · Headband: 6000 -> 10000
-  · Bandana: 9000 -> 12000
-  · Fire Armor: 30000 -> 15000
-  · Ice Armor: 35000 -> 18000
-  · Diamond Armor: 40000 -> 20000
-  · Samurai Armor: 40000 -> 20000
-  · Dragoon Armor: 50000 -> 30000
-  · Karate Gi: 4000 -> 7000
-  · Black Belt: 14000 -> 20000
-  · Bahamut orb: 85000 -> 60000
-· Item tier changes:
-  · Cat Claw: 5 -> 4
-  · Bahamut orb: 7 -> 6
-· Fixed an issue where DkMatter could replace the Pass in chests.
-· Fixed an issue where MIAB rewards would be duplicated in other chests with Tvanilla.
-· Updated Z sprites and harp songs.
-
+Updating FuSoYa's Learned Spells
+· The work here is in /FreeEnt/fusoya_rando.py
+· For this example, the change is to just flat out remove Nuke and Weak from the list.
+· Some other things you could do:
+  · Change the ordering of ALL_SPELLS_BY_GOODNESS to alter the starting position for learning a spell
+  · Change the math used to alter the final positioning of each learned spell
 
