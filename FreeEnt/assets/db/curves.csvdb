@@ -27,9 +27,9 @@ MountOrdeals,13,Mount Ordeals,10,10,45,25,10,0,0,0
 Sewer,14,Sewer,10,10,45,25,10,0,0,0
 BaronWeaponShop,2,Baron Town Weapon/Armor Shop,10,10,45,25,10,0,0,0
 SealedCave,34,Sealed Cave,10,10,30,30,20,0,0,0
-Smithy,30,Smithy House,10,10,30,30,20,0,0,0
+Smithy,30,Smithy House,100,0,0,0,0,0,0,0
 SylvanCave,31,Sylvan Cave,8,12,25,30,23,2,0,0
-Tomra,29,Tomra,10,20,40,28,2,0,0,0
+Tomra,29,Tomra,0,0,0,0,25,25,25,25
 ToroiaCastle,19,Toroia Castle,10,30,35,21,4,0,0,0
 ToroiaTreasury,20,Toroia Castle Treasury,0,8,20,20,40,10,1,1
 UpperBabil,27,Upper Bab-il,10,10,35,30,15,0,0,0
@@ -37,7 +37,7 @@ UpperBabilAfterFall,28,Upper Bab-il (after fall),0,10,35,30,15,10,0,0
 LowerBabil,24,Lower Bab-il,10,10,30,30,20,0,0,0
 Zot,22,Tower of Zot,10,10,35,30,15,0,0,0
 WateryPass,7,Watery Pass,10,20,30,25,13,2,0,0
-MIAB_Zot,1001,Tower of Zot,0,0,0,10,40,30,20,0
+MIAB_Zot,1001,Tower of Zot,0,0,0,0,0,10,50,40
 MIAB_Eblan,1002,Eblan,0,0,0,0,30,35,35,0
 MIAB_CaveEblan,1003,Cave Eblan,0,0,0,20,40,25,15,0
 MIAB_LowerBabil,1004,Lower Bab-il,0,0,0,30,45,13,12,0
